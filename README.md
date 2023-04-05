@@ -14,13 +14,13 @@ Po kliknutí na fialový obdĺžnik sa zobrazí môj predchádzajúci projekt zo
 
 ## 🏗️ Vytvorenie projektu
 
-Pri vytváraní projekt som strávil najviac času s JavaScriptom, ktorý sa učím. Kód v JavaScripte pre validáciu formulára som napísal ja. Druhý kód v JavaScripte je na zmenu farby okrajov inputov, keď sa na ne klikne. Ten som vytvoril s pomocou ChatGPT. Veľa času som strávil aj vytváraním responzívneho dizajnu. Vytvorenie tejto stránky mi trvalo približne 8 hodín.
+Pri vytváraní projekt som strávil najviac času s JavaScriptom, ktorý sa učím. Kód v JavaScripte pre validáciu formulára som napísal ja. Druhý kód v JavaScripte je na zmenu farby okrajov inputov, keď sa na ne klikne. Ten som vytvoril s pomocou ChatGPT. Veľa času som strávil aj vytváraním responzívneho dizajnu. V SCSS som využil funkciu na prevod _px_ na _em_ a _line height_. Vytvorenie tejto stránky mi trvalo približne 8 hodín.
 
 <br/>
 
 ## 🏫 Čo som sa naučil
 
-Naučil som sa pracovať s formulárom v spojení s JavaScriptom.
+Naučil som sa lepšie pracovať s formulárom a jeho spojením s JavaScriptom.
 
 <br/>
 
