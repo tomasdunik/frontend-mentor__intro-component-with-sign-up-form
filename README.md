@@ -8,7 +8,7 @@ Projekt je responzívna landing page, kde sa nachádzajú interaktívne prvky. P
 
 Po kliknutí na fialový obdĺžnik sa zobrazí môj predchádzajúci projekt zo stránky [Frontend Mentor](https://www.frontendmentor.io/solutions/my-version-base-apparel-coming-soon-page-ni6OmD0IKN).
 
-## [Odkaz na hotovú stránku](https://tomasdunik.github.io/intro-component-with-sign-up-form/)
+#### [Odkaz na hotovú stránku](https://tomasdunik.github.io/intro-component-with-sign-up-form/)
 
 <br/>
 
