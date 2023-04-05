@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <!--————————————————————— METADATA ————————————————————-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--————————————————————— TITLE ——————————————————————-->
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!--———————————————————— FAVICON —————————————————————-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!--————————————————————— FONT ———————————————————————-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--————————————————————— CSS ————————————————————————-->
+    <link rel="stylesheet" href="./css-scss/general.css" />
+    <link rel="stylesheet" href="./css-scss/header.css" />
+    <link rel="stylesheet" href="./css-scss/main.css" />
+
+    <!--————————————————————— SCRIPT —————————————————————-->
+    <script src="./script-form.js" defer></script>
+  </head>
+  <body>
+    <div class="website">
+      <!-- ================================================ -->
+      <!-- ==================== Header ==================== -->
+      <!-- ================================================ -->
+      <header class="header">
+        <h1 class="header__heading">Naučte sa kódovať sledovaním ostatných</h1>
+        <p class="header__description">
+          Pozrite sa, ako skúsení vývojári riešia problémy v reálnom čase.
+          Sledovanie tutoriálov je skvelé, ale pochopenie toho, ako vývojári
+          myslia, je&nbsp;nenahraditeľné.
+        </p>
+      </header>
+      <!-- ================================================ -->
+      <!-- ===================== Main ===================== -->
+      <!-- ================================================ -->
+      <main class="main">
+        <a
+          href="https://tomasdunik.github.io/frontend-mentor__base-apparel-coming-soon-page/"
+        >
+          <h2 class="main__heading">
+            <span class="rc__font-weight-bold">Vyskúšajte 7 dní zadarmo</span>
+            a následne za&nbsp;20€ mesačne
+          </h2></a
+        >
+        <!-- ================================================ -->
+        <!-- ===================== Form ===================== -->
+        <!-- ================================================ -->
+        <form id="form" class="form" onsubmit="return validateForm()">
+          <div id="form__box-first-name" class="form__box">
+            <input
+              type="text"
+              placeholder="Meno"
+              id="first-name"
+              class="first-name form__box__input"
+            />
+            <img
+              id="icon-error-first-name"
+              class="icon-error"
+              src="./images/icon-error.svg"
+              alt="icon error"
+            />
+          </div>
+          <p id="message-error-first-name" class="message-error"></p>
+
+          <!-- ================== Last Name ================= -->
+          <div id="form__box-last-name" class="form__box">
+            <input
+              type="text"
+              placeholder="Priezvisko"
+              id="last-name"
+              class="last-name form__box__input"
+            />
+            <img
+              id="icon-error-last-name"
+              class="icon-error"
+              src="./images/icon-error.svg"
+              alt="icon error"
+            />
+          </div>
+          <p id="message-error-last-name" class="message-error"></p>
+          <!-- =================== E-mail =================== -->
+          <div id="form__box-e-mail" class="form__box">
+            <input
+              type="email"
+              placeholder="E-mailová adresa"
+              id="email"
+              class="email form__box__input"
+            />
+            <img
+              id="icon-error-email"
+              class="icon-error"
+              src="./images/icon-error.svg"
+              alt="icon error"
+            />
+          </div>
+          <p id="message-error-email" class="message-error"></p>
+          <!-- ================== Password ================== -->
+          <div id="form__box-password" class="form__box">
+            <input
+              type="password"
+              placeholder="Heslo"
+              id="password"
+              class="password form__box__input"
+            />
+            <img
+              id="icon-error-password"
+              class="icon-error"
+              src="./images/icon-error.svg"
+              alt="icon error"
+            />
+          </div>
+          <p id="message-error-password" class="message-error"></p>
+          <!-- =================== Button =================== -->
+          <button id="button" class="button" type="submit">
+            Zaregistrovať sa
+          </button>
+          <p class="main__form-info">
+            Odoslaním formulára vyjadrujete súhlas s&nbsp;našimi
+            <span class="rc__font-weight-bold-red">Podmienkami používania</span>
+          </p>
+        </form>
+      </main>
+      <!-- ================================================ -->
+      <!-- ==================== Footer ==================== -->
+      <!-- ================================================ -->
+      <footer class="Footer"></footer>
+    </div>
+  </body>
+</html>

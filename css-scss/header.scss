@@ -1,0 +1,75 @@
+@import "./partials/variables", "./partials/functions";
+
+.header__heading {
+  color: $color-white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: em(-0.29, 28);
+  line-height: lineHeight(36, 28);
+  text-align: center;
+}
+
+.header__description {
+  color: $color-white;
+  font-weight: 500;
+  line-height: lineHeight(26, 16);
+  margin-top: 1.6rem;
+  text-align: center;
+}
+
+/***********************************************************/
+/**************** @media (max-width: 374px) ***************/
+/***********************************************************/
+@media (max-width: 374px) {
+  .header__heading {
+    font-size: 2.3rem;
+  }
+
+  .header__description {
+    font-size: 1.5rem;
+  }
+}
+
+/***********************************************************/
+/**************** @media (min-width: 750px) ***************/
+/***********************************************************/
+@media (min-width: 750px) {
+  .header {
+    margin-right: 5.3rem;
+    text-align: left;
+  }
+
+  .header__heading {
+    font-size: 4rem;
+    letter-spacing: em(-0.52, 50);
+    line-height: lineHeight(55, 50);
+    text-align: left;
+  }
+
+  .header__description {
+    margin-top: 3.5rem;
+    text-align: left;
+  }
+}
+
+/***********************************************************/
+/**************** @media (min-width: 950px) ***************/
+/***********************************************************/
+@media (min-width: 950px) {
+  .header {
+    margin-right: 7.3rem;
+    max-width: 57.1rem;
+  }
+
+  .header__heading {
+    font-size: 5rem;
+    letter-spacing: em(-0.52, 50);
+    line-height: lineHeight(55, 50);
+    text-align: left;
+  }
+
+  .header__description {
+    margin-top: 4.2rem;
+    text-align: left;
+  }
+}

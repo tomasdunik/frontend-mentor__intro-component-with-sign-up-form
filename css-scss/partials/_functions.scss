@@ -1,0 +1,7 @@
+@function em($letterSpacingPx, $fontSize) {
+  @return ($letterSpacingPx / $fontSize) * 1em;
+}
+
+@function lineHeight($lineHeightPx, $fontSize) {
+  @return ($lineHeightPx / $fontSize);
+}

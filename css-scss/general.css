@@ -1,0 +1,77 @@
+/***********************************************************/
+/*************************** Color *************************/
+/***********************************************************/
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(../images/bg-intro-mobile.png), #ff7979;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.website {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8.8rem 2.4rem 6.8rem 2.4rem;
+}
+
+/***********************************************************/
+/**************** @media (max-width: 374px) ***************/
+/***********************************************************/
+@media (max-width: 374px) {
+  .website {
+    margin: 8rem 2rem 8rem 2rem;
+  }
+}
+/***********************************************************/
+/**************** @media (min-width: 500px) ***************/
+/***********************************************************/
+@media (min-width: 500px) {
+  .website {
+    margin: 8rem 7rem 8rem 7rem;
+  }
+}
+/***********************************************************/
+/**************** @media (min-width: 750px) ***************/
+/***********************************************************/
+@media (min-width: 750px) {
+  body {
+    background: url(../images/bg-intro-desktop.png), #ff7979;
+  }
+  .website {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 4rem 3rem 4rem;
+  }
+}
+/***********************************************************/
+/**************** @media (min-width: 950px) ***************/
+/***********************************************************/
+@media (min-width: 950px) {
+  .website {
+    margin: 12.1rem 16.5rem 12.1rem 16.5rem;
+  }
+}
+/***********************************************************/
+/******************* REUSABLE COMPONENTS *******************/
+/***********************************************************/
+.rc__font-weight-bold {
+  font-weight: 700;
+}
+
+.rc__font-weight-bold-red {
+  color: #ff7979;
+  cursor: pointer;
+  font-weight: 700;
+}/*# sourceMappingURL=general.css.map */
