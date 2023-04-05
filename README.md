@@ -8,7 +8,7 @@ Projekt je responzívna landing page, kde sa nachádzajú interaktívne prvky. P
 
 Po kliknutí na fialový obdĺžnik sa zobrazí môj predchádzajúci projekt zo stránky [Frontend Mentor](https://www.frontendmentor.io/solutions/my-version-base-apparel-coming-soon-page-ni6OmD0IKN).
 
-<!-- ## [Odkaz na hotovú stránku](https://tomasdunik.github.io/frontend-mentor-newbie-equalizer-landing-page/) -->
+## [Odkaz na hotovú stránku](https://tomasdunik.github.io/intro-component-with-sign-up-form/)
 
 <br/>
 
@@ -59,5 +59,5 @@ Naučil som sa pracovať s formulárom v spojení s JavaScriptom.
 
 ## 🔗 Projekty Frontend Mentor
 
-- [Tento konkrétny projekt na stránke Frontend Mentor](https://www.frontendmentor.io/solutions/equalizer-landing-page-WPZNnYpwXg)
+- [Tento konkrétny projekt na stránke Frontend Mentor](https://www.frontendmentor.io/solutions/my-version-intro-component-with-signup-form-mGaz1ESb-k)
 - [Moje ostatné projekty na stránke Frontend Mentor](https://www.frontendmentor.io/profile/WeekendsProgrammer)
