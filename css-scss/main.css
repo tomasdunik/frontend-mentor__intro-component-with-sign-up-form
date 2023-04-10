@@ -67,6 +67,10 @@
   line-height: 1.8571428571;
 }
 
+.outline-on-focus {
+  outline: 1px solid #5e54a4;
+}
+
 .form__box:focus {
   border: 2px red solid;
 }

@@ -90,42 +90,18 @@ function validateForm() {
 }
 
 /***********************************************************/
-/******************** Zmena farby okraja *******************/
+/************************** Outline ************************/
 /***********************************************************/
+document.addEventListener('DOMContentLoaded', function () {
+  let inputs = document.querySelectorAll('div input');
 
-const formBoxFirstName = document.getElementById('form__box-first-name');
-const formBoxLastName = document.getElementById('form__box-last-name');
-const formBoxEmail = document.getElementById('form__box-e-mail');
-const formBoxPassword = document.getElementById('form__box-password');
+  for (let i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener('focus', function (event) {
+      event.target.parentElement.classList.add('outline-on-focus');
+    });
 
-const formBoxes = [
-  formBoxFirstName,
-  formBoxLastName,
-  formBoxEmail,
-  formBoxPassword,
-];
-
-formBoxes.forEach((box) => {
-  box.addEventListener('click', (event) => setBorderColor(event, box));
+    inputs[i].addEventListener('blur', function (event) {
+      event.target.parentElement.classList.remove('outline-on-focus');
+    });
+  }
 });
-
-document.addEventListener('click', resetBorderColor);
-
-function setBorderColor(event, element) {
-  event.stopPropagation();
-  formBoxes.forEach((box) => {
-    if (box === element) {
-      box.style.borderColor = '#5e54a4';
-    } else {
-      box.style.borderColor = '';
-    }
-  });
-}
-
-function resetBorderColor(event) {
-  formBoxes.forEach((box) => {
-    if (event.target !== box) {
-      box.style.borderColor = '';
-    }
-  });
-}
