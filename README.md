@@ -2,7 +2,7 @@
 
 ## 📝 Informácie o projekte
 
-Tento projekt je zo stránky [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Stránka Frontend Mentor ponúka projekty na vypracovanie, ktoré obsahujú základný text v HTML a grafický dizajn projektu. Predlohy projektov sú dostupné vo Figme.
+Tento projekt je zo stránky [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Stránka Frontend Mentor ponúka projekty na vypracovanie, ktoré obsahujú základný text v HTML a grafický dizajn projektu vo Figme.
 
 Projekt je responzívna landing page, kde sa nachádzajú interaktívne prvky. Pri odoslaní formulára sa zobrazia chybné hlásenia, ak je formulár prázdny alebo ak má e-mailová adresa nesprávny formát.
 
