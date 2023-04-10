@@ -1,25 +1,28 @@
 /***********************************************************/
-/******************** Validácia formulára ******************/
+/********************** Form Validation ********************/
 /***********************************************************/
-function validateForm() {
-  const firstNameInput = document.getElementById('first-name');
-  const lastNameInput = document.getElementById('last-name');
-  const emailInput = document.getElementById('email');
-  const passwordInput = document.getElementById('password');
 
-  const formBoxFirstName = document.getElementById('form__box-first-name');
-  const formBoxLastName = document.getElementById('form__box-last-name');
-  const formBoxEmail = document.getElementById('form__box-e-mail');
-  const formBoxPassword = document.getElementById('form__box-password');
+const form = document.getElementById('form');
 
-  const iconErrorFirstName = document.getElementById('icon-error-first-name');
-  const iconErrorLastName = document.getElementById('icon-error-last-name');
-  const iconErrorEmail = document.getElementById('icon-error-email');
-  const iconErrorPassword = document.getElementById('icon-error-password');
+const firstName = document.getElementById('first-name');
+const lastName = document.getElementById('last-name');
+const email = document.getElementById('email');
+const password = document.getElementById('password');
 
-  const successMessage = document.getElementById('successMessage');
+const formBoxFirstName = document.getElementById('form__box-first-name');
+const formBoxLastName = document.getElementById('form__box-last-name');
+const formBoxEmail = document.getElementById('form__box-e-mail');
+const formBoxPassword = document.getElementById('form__box-password');
 
-  if (firstNameInput.value.trim() === '') {
+const iconErrorFirstName = document.getElementById('icon-error-first-name');
+const iconErrorLastName = document.getElementById('icon-error-last-name');
+const iconErrorEmail = document.getElementById('icon-error-email');
+const iconErrorPassword = document.getElementById('icon-error-password');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  if (firstName.value.trim() === '') {
     document.querySelector('#message-error-first-name').textContent =
       'Prosím, uveďte Vaše meno!';
     formBoxFirstName.classList.add('border-error');
@@ -31,7 +34,7 @@ function validateForm() {
     iconErrorFirstName.classList.remove('show-error');
   }
 
-  if (lastNameInput.value.trim() === '') {
+  if (lastName.value.trim() === '') {
     document.querySelector('#message-error-last-name').textContent =
       'Prosím, uveďte Vaše priezvisko!';
     formBoxLastName.classList.add('border-error');
@@ -43,7 +46,7 @@ function validateForm() {
     iconErrorLastName.classList.remove('show-error');
   }
 
-  if (emailInput.value.trim() === '') {
+  if (email.value.trim() === '') {
     document.querySelector('#message-error-email').textContent =
       'Prosím, uveďte Vašu e-mailovú adresu!';
     formBoxEmail.classList.add('border-error');
@@ -56,7 +59,7 @@ function validateForm() {
   }
 
   const emailRegex = /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
-  if (!emailRegex.test(emailInput.value)) {
+  if (!emailRegex.test(email.value)) {
     document.querySelector('#message-error-email').textContent =
       'Nesprávny formát e-mailovej adresy!';
     formBoxEmail.classList.add('border-error');
@@ -64,7 +67,7 @@ function validateForm() {
     return false;
   }
 
-  if (passwordInput.value.trim() === '') {
+  if (password.value.trim() === '') {
     document.querySelector('#message-error-password').textContent =
       'Prosím, uveďte Vaše heslo!';
     formBoxPassword.classList.add('border-error');
@@ -76,21 +79,14 @@ function validateForm() {
     iconErrorPassword.classList.remove('show-error');
   }
 
-  if (
-    firstNameInput.value.trim() !== '' &&
-    lastNameInput.value.trim() !== '' &&
-    emailInput.value.trim() !== '' &&
-    emailRegex.test(emailInput.value) &&
-    passwordInput.value.trim() !== ''
-  ) {
+  setTimeout(() => {
+    form.submit();
     window.location.href = 'form-success.html';
-  }
-
-  return false;
-}
+  }, 100);
+});
 
 /***********************************************************/
-/************************** Outline ************************/
+/********************* Form Input Outline ******************/
 /***********************************************************/
 document.addEventListener('DOMContentLoaded', function () {
   let inputs = document.querySelectorAll('div input');

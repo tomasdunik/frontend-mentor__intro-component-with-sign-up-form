@@ -14,7 +14,9 @@ Po kliknutí na fialový obdĺžnik sa zobrazí môj predchádzajúci projekt zo
 
 ## 🏗️ Vytvorenie projektu
 
-Pri vytváraní projekt som strávil najviac času s JavaScriptom, ktorý sa učím. Kód v JavaScripte pre validáciu formulára som napísal ja. Druhý kód v JavaScripte je na zmenu farby okrajov inputov, keď sa na ne klikne. Ten som vytvoril s pomocou ChatGPT. Veľa času som strávil aj vytváraním responzívneho dizajnu. V SCSS som využil funkciu na prevod _px_ na _em_ a _line height_. Vytvorenie tejto stránky mi trvalo približne 8 hodín.
+Pri vytváraní projekt som strávil najviac času s JavaScriptom, ktorý sa učím. Kód v JavaScripte pre validáciu formulára som napísal ja. Druhý kód v JavaScripte "_Form Input Outline_" som vytvoril s pomocou ChatGPT. Veľa času som strávil aj vytváraním responzívneho dizajnu. V SCSS som využil funkciu na prevod _px_ na _em_ a _line height_. Vytvorenie tejto stránky mi trvalo približne 8 hodín.
+
+Projekt som po dokončení zdieľal na Discordovom servery [junior.guru](https://junior.guru/club/). Dostal som podnety na zlepšenie, napríklad som pridal podstránku s poďakovaním. Tá sa zobrazí po úspešnom odoslaní formulára. Prepísal som aj obidva kódy v JavaScripte.
 
 <br/>
 
