@@ -1,0 +1,62 @@
+/***********************************************************/
+/*************************** Color *************************/
+/***********************************************************/
+.header__heading {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.0103571429em;
+  line-height: 1.2857142857;
+  text-align: center;
+}
+
+.header__description {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.625;
+  margin-top: 1.6rem;
+  text-align: center;
+}
+
+/***********************************************************/
+/**************** @media (max-width: 374px) ***************/
+/***********************************************************/
+@media (max-width: 374px) {
+  .header__heading {
+    font-size: 2.3rem;
+  }
+  .header__description {
+    font-size: 1.5rem;
+  }
+}
+/***********************************************************/
+/**************** @media (min-width: 750px) ***************/
+/***********************************************************/
+@media (min-width: 750px) {
+  .header__heading {
+    font-size: 4rem;
+    letter-spacing: -0.0104em;
+    line-height: 1.1;
+  }
+  .header__description {
+    font-size: 2.1rem;
+    margin-top: 3.5rem;
+  }
+}
+/***********************************************************/
+/**************** @media (min-width: 950px) ***************/
+/***********************************************************/
+@media (min-width: 950px) {
+  .header {
+    max-width: 57.1rem;
+  }
+  .header__heading {
+    font-size: 5rem;
+    letter-spacing: -0.0104em;
+    line-height: 1.1;
+  }
+  .header__description {
+    font-size: 2.6rem;
+    margin-top: 4.2rem;
+  }
+}/*# sourceMappingURL=form-success.css.map */

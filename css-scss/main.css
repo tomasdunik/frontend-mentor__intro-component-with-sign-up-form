@@ -126,6 +126,16 @@
   text-align: center;
 }
 
+.successMessage {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.15);
+  flex-direction: column;
+  margin-top: 2.4rem;
+  padding: 2.4rem;
+  display: none;
+}
+
 /***********************************************************/
 /**************** @media (max-width: 374px) ***************/
 /***********************************************************/
